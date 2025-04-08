@@ -12,14 +12,24 @@
 // to match your app's branding.
 // Tip: Use the "Theme Builder" on Quasar's documentation website.
 
-$primary   : #1976D2;
-$secondary : #26A69A;
-$accent    : #9C27B0;
+// Primary Colors
+$primary: #00c49a; // Primary Green (Success, Growth)
+$secondary: #409eff; // Accent Blue (Trust, Stability)
 
-$dark      : #1D1D1D;
-$dark-page : #121212;
+// Secondary Colors
+$accent: #ffc94a; // Highlight / Savings
+$warning: #ff6b6b; // Warning / Alerts
 
-$positive  : #21BA45;
-$negative  : #C10015;
-$info      : #31CCEC;
-$warning   : #F2C037;
+// Background Colors
+$dark: #1e1e1e; // Card Background
+$dark-page: #121212; // Main Background
+
+// Status Colors
+$positive: #00e676; // Bright Green for Graphs
+$negative: #ffa726; // Orange for Graphs
+$info: #409eff; // Soft Blue for Buttons
+
+// Text Colors
+$text-primary: #e0e0e0; // Primary Text
+$text-secondary: #b0b0b0; // Secondary Text
+$border-color: #292929; // Borders / Shadows

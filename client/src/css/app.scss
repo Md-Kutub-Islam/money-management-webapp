@@ -1,1 +1,88 @@
 // app global css in SCSS form
+
+// Import Poppins font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+// Set dark theme background
+body {
+  background-color: $dark-page !important;
+  color: $text-primary;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+// Custom styles for the application
+
+// Text colors
+.text-primary {
+  color: $text-primary !important;
+}
+
+.text-secondary {
+  color: $text-secondary !important;
+}
+
+// Background colors
+.bg-card {
+  background-color: $dark !important;
+}
+
+.bg-main {
+  background-color: $dark-page !important;
+}
+
+// Border styles
+.border-subtle {
+  border-color: $border-color !important;
+}
+
+// Card styles
+.q-card {
+  background-color: $dark !important;
+  border: 1px solid $border-color !important;
+}
+
+// Button styles
+.q-btn--primary {
+  background-color: $primary !important;
+}
+
+.q-btn--secondary {
+  background-color: $secondary !important;
+}
+
+// Input styles
+.q-field {
+  .q-field__control {
+    background-color: $dark !important;
+    color: $text-primary !important;
+  }
+
+  .q-field__label {
+    color: $text-secondary !important;
+  }
+}
+
+// Table styles
+.q-table {
+  background-color: $dark !important;
+  color: $text-primary !important;
+
+  th {
+    background-color: $dark-page !important;
+    color: $text-primary !important;
+  }
+
+  td {
+    color: $text-primary !important;
+  }
+}
+
+// Chart colors
+.chart-line-success {
+  stroke: $positive !important;
+}
+
+.chart-line-warning {
+  stroke: $negative !important;
+}
